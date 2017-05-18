@@ -99,3 +99,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# o-areena config file
+config.py
