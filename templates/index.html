@@ -1,9 +1,100 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>o-areena</title>
-</head>
-<body>
-index.html
-</body>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>o-areena</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<script src="https://unpkg.com/react@15.5.4/dist/react.min.js"></script>
+		<script src="https://unpkg.com/react-dom@15.5.4/dist/react-dom.min.js"></script>
+		
+		<style type="text/css">
+
+			.margin-top-100 {
+				margin-top: 100px;
+			}
+
+			.max-width-900 {
+				max-width: 900px;
+			}
+
+			.col-app-container {
+				max-width: 800px;
+				border: 1px solid red;
+			}
+
+			.search-input {
+				max-width: 400px;
+				height: 40px;
+				display: inline-block;
+				margin-right: 10px;
+			}
+
+			.search-button {
+				display: inline-block;
+				width: 50px;
+				height: 40px;
+				cursor: pointer;
+			}
+
+			.search-link {
+				display: inline-block;
+				font-size: 15pt;
+				cursor: pointer;
+			}
+
+			.search-result-pagination {
+				margin-top: 25px;
+			}
+
+			.pagination-backward {
+				font-weight: bold;
+				margin-right: 10px;
+			}
+
+			.pagination-forward {
+				font-weight: bold;
+				margin-left: 10px;
+			}
+
+			.search-result-list {
+				text-align: left;
+				margin-top: 20px;
+			}
+
+			.search-result-list-searching {
+				text-align: center;
+				margin-top: 20px;
+			}
+
+			.search-result-list-item {
+				margin-bottom: 30px;
+			}
+
+			.search-result-title {
+				font-size: 14pt;
+			}
+
+		</style>
+	</head>
+	<body>
+		{% block content %}
+		<div class="container">
+			<div class="row margin-top-100 max-width-900 center-block text-center">
+				<div class="col-lg-12">
+					<div class="row">
+						<!-- React root -->
+						<div class="col-lg-12" id="root"></div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		{% endblock %}
+	</body>
+	<script type="text/javascript" src="static/js/app.js"></script>
 </html>
+
+

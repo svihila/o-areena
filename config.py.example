@@ -1,0 +1,4 @@
+#Yle api credentials
+YLE_APP_ID='YourAppId'
+YLE_APP_KEY='YourAppKey'
+YLE_MEDIA_SECRET='YourMediaSecret'
