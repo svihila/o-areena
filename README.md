@@ -1,5 +1,5 @@
 # o-areena
-Lightweight Python/React client for consuming Yle Areena content via [Yle API](http://developer.yle.fi)
+Lightweight Python-React client for consuming Yle Areena content via [Yle API](http://developer.yle.fi)
 
 ## Requirements:
 - Python 3.5+ (and pip)
@@ -7,7 +7,7 @@ Lightweight Python/React client for consuming Yle Areena content via [Yle API](h
 
 ## Installation and running development server:
 - Get your YLE Api credentials from (https://tunnus.yle.fi/api-avaimet)
-- Create config.py with your YLE API credentials (see config.py.example)
+- Create config.py with your credentials (see config.py.example)
 - (Using virtualenv is recommended)
 - `pip install --editable .`
 - `. run_dev.sh` 
