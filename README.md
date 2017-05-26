@@ -6,7 +6,7 @@ Lightweight Python-Flask-React client for consuming Yle Areena content via [Yle 
 - Python package dependencies are determined in setup.py
 
 ## Installation and running development server:
-- Get your YLE Api credentials from (https://tunnus.yle.fi/api-avaimet)
+- Get your Yle Api credentials from (https://tunnus.yle.fi/api-avaimet)
 - Create config.py with your credentials (see config.py.example)
 - (Using virtualenv is recommended)
 - `pip install --editable .`
