@@ -2,7 +2,7 @@
 Lightweight Python-Flask-React client for consuming Yle Areena content via [Yle API](http://developer.yle.fi)
 
 ## Requirements:
-- Python 3.5+ (and pip)
+- Python 3.5+ (+ pip and setuptools)
 - Python package dependencies are determined in setup.py
 
 ## Installation and running development server:
